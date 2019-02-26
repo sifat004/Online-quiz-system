@@ -1,0 +1,156 @@
+
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+  line-height: 1em;
+  color:#A7A1AE;
+  
+  background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  text-align: center;
+}
+
+
+.container {
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+   
+}
+/*h1 {
+  font-size:3em; 
+  font-weight: 300;
+  line-height:1em;
+  text-align: center;
+  color: #4DC3FA;
+}
+
+h2 {
+  font-size:1em; 
+  font-weight: 300;
+  text-align: center;
+  display: block;
+  line-height:1em;
+  padding-bottom: 2em;
+  color: #FB667A;
+}
+
+h2 a {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FB667A;
+  text-decoration: none;
+}
+
+
+ th h1 {
+    font-weight: bold;
+    font-size: 1em;
+  text-align: center;
+  color: #181175;
+}*/
+
+ td {
+    font-weight: normal;
+    font-size: 1em;
+      margin: 2px;
+
+
+}
+
+
+
+td, th {
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left:1%;
+
+}
+
+/* Background-color of the odd rows */
+ tr:nth-child(odd) {
+    background-color: #323C50;
+}
+
+
+
+/* Background-color of the even rows */
+tr:nth-child(even) {
+    background-color: #2C3446;
+}
+ th {
+    background-color: #1F2739;
+}
+
+ td:first-child { color: #FB667A; }
+
+ tr:hover {
+   background-color: #464A52;
+
+}
+
+
+#small_button_1 {
+  cursor: pointer;
+  width: 40%;
+  border: none;
+
+  background: -webkit-linear-gradient(to right, #070000, #4C0001, #070000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #070000, #4C0001, #070000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#small_button_2 {
+  cursor: pointer;
+  width: 40%;
+  border: none;
+
+  background: #136a8a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+#small_button_1:hover, #small_button_2:hover {
+  background: #182848;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#small_button {
+  cursor: pointer;
+  width: 80%;
+  border: none;
+  background: -webkit-linear-gradient(to right, #e35d5b, #e53935);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #e35d5b, #e53935); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+#small_button:hover {
+  background: #182848;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+        

@@ -1,0 +1,109 @@
+ 
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+
+ body{
+     font-family: 'Roboto Slab', sans-serif;
+     padding-bottom: 420px;
+}
+ h1{
+     text-align: center;
+     color: #4181ee;
+}
+ .wrapper{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+}
+ .card{
+    max-width: 300px;
+     min-height: 250px;
+     background: #02b875;
+     padding: 30px;
+     box-sizing: border-box;
+     color: #FFF;
+     margin:20px;
+     box-shadow: 0px 2px 18px -4px rgba(0,0,0,0.75);
+}
+ 
+
+ .card:nth-child(2n){
+    background: #4181ee;
+}
+
+ .card:nth-child(3n){
+    background: #673ab7;
+}
+
+ .card:nth-child(4n){
+    background:#E64A19;
+}
+/* .card:last-child{
+    background: #673ab7;
+}*/
+ .card-title{
+     margin-top: 0;
+     font-size: 26px;
+     font-weight: 600;
+     letter-spacing: 1.2px;
+
+       font-family: 'Patua One'
+
+
+}
+ .card-content{
+     font-size: 24px;
+     letter-spacing: 0.5px;
+     line-height: 1.5;
+}
+ .card-btn{
+     all: unset;
+     display: block;
+     margin-left: auto;
+     border: 2px solid #FFF;
+     padding: 10px 15px;
+     border-radius: 10px;
+     font-size: 20px;
+     font-weight: 600;
+     transition: all 0.5s;
+     cursor: pointer;
+     letter-spacing: 1.2px;
+
+          font-family: 'Bree Serif', sans-serif;
+
+
+     
+} 
+
+.card-btn:hover{
+    color:#02b875;
+    background: #FFF;
+}
+
+
+  .card:nth-child(2n) .card-btn:hover{
+     color:#4181ee;
+     background: #FFF;}
+
+ .card:nth-child(3n) .card-btn:hover{
+
+
+     color:#673ab7;
+     background: #FFF;
+}
+
+ .card:nth-child(4n) .card-btn:hover{
+
+    color: #E64A19;
+     background: #FFF;
+}
+
+h2{
+
+         font-size: 88px;
+
+}
+ 
+/* .card:last-child .card-btn:hover{
+    color:#673ab7;
+     background: #FFF;
+}*/
